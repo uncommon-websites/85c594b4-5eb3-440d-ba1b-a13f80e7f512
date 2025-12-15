@@ -3,7 +3,7 @@
 		<div class="mb-12 flex items-end justify-between">
 			<div>
 				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[04] Customer Stories</div>
-				<h2 class="text-4xl font-medium tracking-tight text-gray-900">How top teams win with Juicebox</h2>
+				<h2 class="text-4xl font-medium tracking-tight text-gray-900">How leading health systems use Cleo</h2>
 			</div>
 			<div class="flex gap-2">
 				<button class="flex h-10 w-10 items-center justify-center border border-gray-200 bg-white hover:bg-gray-50">
@@ -19,27 +19,35 @@
 			<!-- Story 1 -->
 			<div class="group cursor-pointer">
 				<div class="relative mb-6 overflow-hidden bg-gray-200 aspect-video">
-					<img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80" alt="CoinTracker Team" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+					<img src="/generated/image-emergency-department-physician-using-tab-1765838784784-0.webp" alt="ED Physician using Cleo Health" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
 					<div class="absolute top-4 left-4 flex items-center gap-2 text-white font-bold drop-shadow-md">
-						<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
-						CoinTracker
+						<div class="h-6 w-6 bg-white rounded flex items-center justify-center">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-600">
+								<path d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z" fill="currentColor"/>
+							</svg>
+						</div>
+						University Hospital ED
 					</div>
 				</div>
-				<h3 class="mb-2 text-xl font-medium text-gray-900">How CoinTracker Saves 30+ Hours on Sourcing with AI Agents</h3>
-				<p class="text-xs text-gray-500">Valentina Miner, Full-Cycle Recruiter @ CoinTracker</p>
+				<h3 class="mb-2 text-xl font-medium text-gray-900">How University Hospital ED Reduced Documentation Time by 40%</h3>
+				<p class="text-xs text-gray-500">Dr. Sarah Chen, Emergency Medicine Physician</p>
 			</div>
 
 			<!-- Story 2 -->
 			<div class="group cursor-pointer">
 				<div class="relative mb-6 overflow-hidden bg-gray-200 aspect-video">
-					<img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80" alt="Monte Carlo Team" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+					<img src="/generated/image-hospital-medical-director-in-office-revi-1765838789219-1.webp" alt="Medical Director using Cleo Health" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
 					<div class="absolute top-4 left-4 flex items-center gap-2 text-white font-bold drop-shadow-md">
-						<div class="bg-white text-black p-1 text-xs font-bold">MC</div>
-						MONTE CARLO
+						<div class="h-6 w-6 bg-white rounded flex items-center justify-center">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-600">
+								<path d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z" fill="currentColor"/>
+							</svg>
+						</div>
+						Regional Medical Center
 					</div>
 				</div>
-				<h3 class="mb-2 text-xl font-medium text-gray-900">How Monte Carlo Filled 2 Senior Engineering Roles in 3 Weeks</h3>
-				<p class="text-xs text-gray-500">Brenda Tam, Global Head of Recruiting & HR</p>
+				<h3 class="mb-2 text-xl font-medium text-gray-900">How Regional Medical Center Captured $2M in Additional Revenue</h3>
+				<p class="text-xs text-gray-500">Dr. Michael Rodriguez, Chief Medical Officer</p>
 			</div>
 		</div>
 	</div>

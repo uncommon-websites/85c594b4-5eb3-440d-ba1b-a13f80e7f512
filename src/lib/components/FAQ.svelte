@@ -2,28 +2,28 @@
 	let openIndex = 0;
 	const faqs = [
 		{
-			question: "Who can use Juicebox?",
-			answer: "Juicebox is built for recruiters. If you are searching for hard-to-find talent, Juicebox is a fit for you. We work with companies ranging from Fortune 500 to boutique recruiting agencies — and hopefully, you too."
+			question: "Who can use Cleo Health?",
+			answer: "Cleo Health is built for acute care clinicians and hospital administrators. If you're struggling with documentation burden in emergency departments or inpatient settings, Cleo is designed for you. We work with health systems of all sizes — from community hospitals to large academic medical centers."
 		},
 		{
-			question: "Can I try Juicebox for free?",
-			answer: "Yes! We offer a free trial so you can experience the power of our AI agents firsthand."
+			question: "How does Cleo integrate with our existing EHR?",
+			answer: "Cleo seamlessly integrates with major EHR systems including Epic, Cerner, and Athena. Our implementation team works closely with your IT department to ensure smooth integration without disrupting clinical workflows."
 		},
 		{
-			question: "Can I use Juicebox with my team?",
-			answer: "Absolutely. Juicebox is designed for collaboration, allowing your entire recruiting team to share insights and candidate pools."
+			question: "Is Cleo HIPAA compliant?",
+			answer: "Absolutely. Cleo Health is fully HIPAA compliant and follows all healthcare data security standards. Patient privacy and data security are our top priorities."
 		},
 		{
-			question: "How long does it take to set up and start using Juicebox?",
-			answer: "You can get started in minutes. Our onboarding is streamlined to get you sourcing candidates immediately."
+			question: "How long does it take to implement Cleo Health?",
+			answer: "Most implementations take 2-4 weeks depending on your EHR system and organizational needs. Our team handles the technical setup while providing comprehensive training for your clinical staff."
 		},
 		{
-			question: "Does Juicebox have global candidate data?",
-			answer: "Yes, we have access to over 800M+ profiles globally across various industries and regions."
+			question: "Does Cleo work in real-time during patient encounters?",
+			answer: "Yes! Cleo's ambient AI captures clinical encounters in real-time, transforming conversations into structured documentation without interrupting patient care."
 		},
 		{
-			question: "Will it integrate with my ATS or CRM?",
-			answer: "We integrate with all major ATS and CRM platforms including Greenhouse, Lever, Ashby, and more."
+			question: "What kind of ROI can we expect from Cleo Health?",
+			answer: "Our customers typically see 30-40% reduction in documentation time, significant improvements in charge capture, and enhanced clinical documentation integrity. Many health systems report ROI within the first 6 months."
 		}
 	];
 </script>
@@ -36,10 +36,10 @@
 				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[06] FAQ</div>
 				<h2 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">Your questions, answered</h2>
 				<p class="mb-8 text-lg leading-relaxed text-gray-600">
-					We're here to help. Reach out to our sales team for guidance on how to integrate Juicebox into your recruiting workflow.
+					We're here to help. Reach out to our team for guidance on how to integrate Cleo Health into your acute care workflow.
 				</p>
 				<a href="#" class="inline-block bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
-					Book a Demo
+					Request Demo
 				</a>
 			</div>
 

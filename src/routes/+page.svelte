@@ -11,7 +11,7 @@
 	import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<main class="font-sans text-gray-900 antialiased selection:bg-purple-200 selection:text-purple-900">
+<main class="font-sans text-gray-900 antialiased selection:bg-primary-200 selection:text-primary-900">
 	<Navbar />
 	<Hero />
 	<DemoSection />
