@@ -33,12 +33,12 @@
 		<div class="grid grid-cols-1 gap-16 lg:grid-cols-12">
 			<!-- Left Side -->
 			<div class="lg:col-span-4">
-				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[06] FAQ</div>
-				<h2 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">Your questions, answered</h2>
-				<p class="mb-8 text-lg leading-relaxed text-gray-600">
+				<div class="mb-4 text-[10px] font-bold tracking-widest text-slate uppercase">[06] FAQ</div>
+				<h2 class="mb-6 text-4xl font-medium tracking-tight text-navy">Your questions, answered</h2>
+				<p class="mb-8 text-lg leading-relaxed text-slate">
 					We're here to help. Reach out to our team for guidance on how to integrate Cleo Health into your acute care workflow.
 				</p>
-				<a href="#" class="inline-block bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+				<a href="#" class="inline-block bg-primary-500 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-primary-600 uppercase rounded">
 					Request Demo
 				</a>
 			</div>
@@ -48,11 +48,11 @@
 				<div class="divide-y divide-gray-200 border-t border-b border-gray-200">
 					{#each faqs as faq, i}
 						<div class="group">
-							<button 
+							<button
 								class="flex w-full items-center justify-between py-6 text-left focus:outline-none"
 								onclick={() => openIndex = openIndex === i ? -1 : i}
 							>
-								<span class="text-lg font-medium text-gray-900">{faq.question}</span>
+								<span class="text-lg font-medium text-navy">{faq.question}</span>
 								<span class="ml-4 flex h-6 w-6 items-center justify-center text-gray-400">
 									{#if openIndex === i}
 										<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
@@ -62,7 +62,7 @@
 								</span>
 							</button>
 							{#if openIndex === i}
-								<div class="pb-6 text-gray-600 leading-relaxed">
+								<div class="pb-6 text-slate leading-relaxed">
 									{faq.answer}
 								</div>
 							{/if}

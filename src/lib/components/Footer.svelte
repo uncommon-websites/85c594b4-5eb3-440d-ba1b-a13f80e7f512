@@ -1,6 +1,6 @@
-<footer class="relative overflow-hidden bg-gray-900 pt-24 pb-8 text-white">
+<footer class="relative overflow-hidden bg-accent-dark pt-24 pb-8 text-white">
 	<!-- Geometric Pattern Background -->
-	<div class="absolute inset-0 opacity-10 pointer-events-none" 
+	<div class="absolute inset-0 opacity-10 pointer-events-none"
 		style="background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, transparent 1px); background-size: 60px 60px; transform: perspective(500px) rotateX(60deg) translateY(-50px) scale(2);">
 	</div>
 	
@@ -14,12 +14,12 @@
 				Request a demo and see how AI can reduce documentation burden.
 			</p>
 			<div class="mx-auto flex max-w-md items-center gap-2">
-				<input 
-					type="email" 
-					placeholder="WORK EMAIL ADDRESS" 
-					class="w-full border border-white/20 bg-white/5 px-4 py-3 text-[11px] font-bold tracking-widest text-white placeholder-white/50 focus:border-white focus:outline-none focus:ring-0 uppercase"
+				<input
+					type="email"
+					placeholder="WORK EMAIL ADDRESS"
+					class="w-full border border-white/20 bg-white/5 px-4 py-3 text-[11px] font-bold tracking-widest text-white placeholder-white/50 focus:border-white focus:outline-none focus:ring-0 uppercase rounded"
 				/>
-				<button class="bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-gray-900 hover:bg-gray-100 uppercase whitespace-nowrap">
+				<button class="bg-primary-500 px-6 py-3 text-[11px] font-bold tracking-widest text-white hover:bg-primary-600 uppercase whitespace-nowrap rounded">
 					Request Demo
 				</button>
 			</div>
@@ -76,7 +76,7 @@
 					<li><a href="#" class="hover:text-white/70">Privacy Policy</a></li>
 					<li class="mt-4">
 						<a href="#" class="flex items-center gap-2 hover:text-white/70">
-							<div class="h-8 w-12 bg-primary-600 rounded overflow-hidden relative flex items-center justify-center">
+							<div class="h-8 w-12 bg-primary-500 rounded overflow-hidden relative flex items-center justify-center">
 								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
 							</div>
 							Request Demo
@@ -100,8 +100,8 @@
 				</a>
 			</div>
 			<div class="flex gap-2">
-				<div class="h-8 w-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xs">SOC2</div>
-				<div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold text-xs">HIPAA</div>
+				<div class="h-8 w-8 rounded-full bg-primary-500 flex items-center justify-center text-white font-bold text-xs">SOC2</div>
+				<div class="h-8 w-8 rounded-full bg-accent-light flex items-center justify-center text-navy font-bold text-xs">HIPAA</div>
 			</div>
 		</div>
 	</div>

@@ -1,12 +1,12 @@
-<section class="py-24 bg-gray-50 border-t border-b border-gray-200">
+<section class="py-24 bg-bg-light border-t border-b border-gray-200">
 	<div class="mx-auto max-w-[1400px] px-6">
 		<div class="mb-12 text-center">
-			<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[02] AI-Powered Workflows</div>
-			<h2 class="text-4xl font-medium tracking-tight text-gray-900">AI that works alongside your clinical team</h2>
+			<div class="mb-4 text-[10px] font-bold tracking-widest text-slate uppercase">[02] AI-Powered Workflows</div>
+			<h2 class="text-4xl font-medium tracking-tight text-navy">AI that works alongside your clinical team</h2>
 		</div>
 
 		<!-- Diagram Area -->
-		<div class="relative mb-16 overflow-hidden rounded-xl bg-primary-700 p-12 min-h-[500px] flex items-center justify-center">
+		<div class="relative mb-16 overflow-hidden rounded-xl bg-primary-500 p-12 min-h-[500px] flex items-center justify-center">
 			<!-- Background Grid -->
 			<div class="absolute inset-0 opacity-20" 
 				style="background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, transparent 1px); background-size: 50px 50px;">
@@ -90,31 +90,31 @@
 				<div class="mb-4 inline-block rounded bg-primary-100 px-2 py-1 text-[10px] font-bold tracking-widest text-primary-700 uppercase">
 					Real-Time Capture
 				</div>
-				<h3 class="mb-3 text-lg font-bold text-gray-900">Documentation that keeps pace</h3>
-				<p class="text-sm leading-relaxed text-gray-600">
-					Cleo's <strong class="text-gray-900">ambient AI</strong> captures clinical encounters in real-time, transforming chaotic ED workflows into structured, accurate documentation without disrupting patient care.
+				<h3 class="mb-3 text-lg font-bold text-navy">Documentation that keeps pace</h3>
+				<p class="text-sm leading-relaxed text-slate">
+					Cleo's <strong class="text-navy">ambient AI</strong> captures clinical encounters in real-time, transforming chaotic ED workflows into structured, accurate documentation without disrupting patient care.
 				</p>
 			</div>
 
 			<!-- Col 2 -->
 			<div class="rounded-lg border border-gray-200 bg-white p-6">
-				<div class="mb-4 inline-block rounded bg-green-100 px-2 py-1 text-[10px] font-bold tracking-widest text-green-700 uppercase">
+				<div class="mb-4 inline-block rounded bg-accent-light/30 px-2 py-1 text-[10px] font-bold tracking-widest text-primary-700 uppercase">
 					EHR Integration
 				</div>
-				<h3 class="mb-3 text-lg font-bold text-gray-900">Seamless EHR sync</h3>
-				<p class="text-sm leading-relaxed text-gray-600">
-					Integrated with <strong class="text-gray-900">Epic, Cerner, and Athena</strong>, Cleo syncs directly with your existing systems, ensuring documentation flows seamlessly into your clinical workflow.
+				<h3 class="mb-3 text-lg font-bold text-navy">Seamless EHR sync</h3>
+				<p class="text-sm leading-relaxed text-slate">
+					Integrated with <strong class="text-navy">Epic, Cerner, and Athena</strong>, Cleo syncs directly with your existing systems, ensuring documentation flows seamlessly into your clinical workflow.
 				</p>
 			</div>
 
 			<!-- Col 3 -->
 			<div class="rounded-lg border border-gray-200 bg-white p-6">
-				<div class="mb-4 inline-block rounded bg-blue-100 px-2 py-1 text-[10px] font-bold tracking-widest text-blue-700 uppercase">
+				<div class="mb-4 inline-block rounded bg-bg-box px-2 py-1 text-[10px] font-bold tracking-widest text-navy uppercase">
 					Patient Continuity
 				</div>
-				<h3 class="mb-3 text-lg font-bold text-gray-900">Complete care cycle</h3>
-				<p class="text-sm leading-relaxed text-gray-600">
-					From <strong class="text-gray-900">entry to follow-up</strong>, Cleo supports patients throughout their entire acute care journey with AI-powered follow-up calls and continuity management.
+				<h3 class="mb-3 text-lg font-bold text-navy">Complete care cycle</h3>
+				<p class="text-sm leading-relaxed text-slate">
+					From <strong class="text-navy">entry to follow-up</strong>, Cleo supports patients throughout their entire acute care journey with AI-powered follow-up calls and continuity management.
 				</p>
 			</div>
 		</div>

@@ -2,19 +2,19 @@
 	<div class="mx-auto max-w-[1400px] px-6">
 		<!-- Section Header -->
 		<div class="mb-12">
-			<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[01] Features</div>
-			<h2 class="text-4xl font-medium tracking-tight text-gray-900">Complete acute care suite</h2>
+			<div class="mb-4 text-[10px] font-bold tracking-widest text-slate uppercase">[01] Features</div>
+			<h2 class="text-4xl font-medium tracking-tight text-navy">Complete acute care suite</h2>
 		</div>
 
 		<!-- Tabs -->
 		<div class="mb-16 flex border-b border-gray-200">
-			<button class="border-b-2 border-gray-900 px-6 py-4 text-[11px] font-bold tracking-widest text-gray-900 uppercase">
-				<span class="mr-2 text-gray-400">01</span> Documentation
+			<button class="border-b-2 border-primary-500 px-6 py-4 text-[11px] font-bold tracking-widest text-navy uppercase">
+				<span class="mr-2 text-slate">01</span> Documentation
 			</button>
-			<button class="border-b-2 border-transparent px-6 py-4 text-[11px] font-bold tracking-widest text-gray-500 hover:text-gray-900 uppercase">
+			<button class="border-b-2 border-transparent px-6 py-4 text-[11px] font-bold tracking-widest text-slate hover:text-navy uppercase">
 				<span class="mr-2 text-gray-300">02</span> Charge Capture
 			</button>
-			<button class="border-b-2 border-transparent px-6 py-4 text-[11px] font-bold tracking-widest text-gray-500 hover:text-gray-900 uppercase">
+			<button class="border-b-2 border-transparent px-6 py-4 text-[11px] font-bold tracking-widest text-slate hover:text-navy uppercase">
 				<span class="mr-2 text-gray-300">03</span> Patient Follow-up
 			</button>
 		</div>
@@ -22,7 +22,7 @@
 		<!-- Feature 1: Ambient Documentation -->
 		<div class="mb-32 grid grid-cols-1 gap-16 lg:grid-cols-2">
 			<!-- Visual -->
-			<div class="relative overflow-hidden rounded-lg bg-primary-700 p-8">
+			<div class="relative overflow-hidden rounded-lg bg-primary-500 p-8">
 				<!-- Mockup -->
 				<div class="rounded-lg bg-white shadow-xl">
 					<div class="border-b border-gray-100 p-4">
@@ -70,17 +70,17 @@
 				<div class="mb-6 inline-block rounded bg-primary-100 px-3 py-1 text-[10px] font-bold tracking-widest text-primary-700 uppercase w-fit">
 					Ambient AI Notes
 				</div>
-				<h3 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">
+				<h3 class="mb-6 text-4xl font-medium tracking-tight text-navy">
 					Real-time documentation that captures chaotic workflows
 				</h3>
-				<p class="mb-8 text-lg leading-relaxed text-gray-600">
-					Transform acute care documentation with <strong class="text-gray-900">ambient AI notes</strong> that capture real-time clinical encounters. Cleo Health integrates seamlessly with your EHR, reducing documentation burden while improving accuracy.
+				<p class="mb-8 text-lg leading-relaxed text-slate">
+					Transform acute care documentation with <strong class="text-navy">ambient AI notes</strong> that capture real-time clinical encounters. Cleo Health integrates seamlessly with your EHR, reducing documentation burden while improving accuracy.
 				</p>
 				<div class="flex items-center gap-4">
-					<a href="#" class="bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+					<a href="#" class="bg-primary-500 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-primary-600 uppercase rounded">
 						See Documentation
 					</a>
-					<a href="#" class="border border-gray-200 bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-gray-900 transition-colors hover:bg-gray-50 uppercase">
+					<a href="#" class="border border-gray-200 bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-navy transition-colors hover:bg-gray-50 uppercase rounded">
 						Request Demo
 					</a>
 				</div>
@@ -90,7 +90,7 @@
 		<!-- Feature 2: Charge Capture & Census -->
 		<div class="grid grid-cols-1 gap-16 lg:grid-cols-2">
 			<!-- Visual -->
-			<div class="relative overflow-hidden rounded-lg bg-gray-800 p-8">
+			<div class="relative overflow-hidden rounded-lg bg-accent-dark p-8">
 				<!-- Mockup -->
 				<div class="rounded-lg bg-white shadow-xl h-full flex flex-col">
 					<div class="border-b border-gray-100 p-4 flex items-center justify-between">
@@ -131,30 +131,30 @@
 			<!-- Content -->
 			<div class="flex flex-col justify-center">
 				<!-- Extra Insight Box -->
-				<div class="mb-12 border-l-2 border-gray-200 pl-6">
-					<p class="text-sm leading-relaxed text-gray-600">
-						Ensure clinical documentation integrity with <strong class="text-gray-900">AI-powered CDI support</strong>. Cleo identifies documentation gaps and suggests improvements in real-time, helping you maintain compliance and maximize reimbursement.
+				<div class="mb-12 border-l-2 border-primary-300 pl-6">
+					<p class="text-sm leading-relaxed text-slate">
+						Ensure clinical documentation integrity with <strong class="text-navy">AI-powered CDI support</strong>. Cleo identifies documentation gaps and suggests improvements in real-time, helping you maintain compliance and maximize reimbursement.
 					</p>
 					<div class="mt-4 flex gap-4">
-						<a href="#" class="text-[10px] font-bold tracking-widest text-gray-900 uppercase border border-gray-900 px-4 py-2 hover:bg-gray-50">See CDI Support</a>
-						<a href="#" class="text-[10px] font-bold tracking-widest text-gray-500 uppercase border border-gray-200 px-4 py-2 hover:text-gray-900 hover:border-gray-900">Request Demo</a>
+						<a href="#" class="text-[10px] font-bold tracking-widest text-navy uppercase border border-navy px-4 py-2 hover:bg-gray-50 rounded">See CDI Support</a>
+						<a href="#" class="text-[10px] font-bold tracking-widest text-slate uppercase border border-gray-200 px-4 py-2 hover:text-navy hover:border-navy rounded">Request Demo</a>
 					</div>
 				</div>
 
-				<div class="mb-6 inline-block rounded bg-green-100 px-3 py-1 text-[10px] font-bold tracking-widest text-green-700 uppercase w-fit">
+				<div class="mb-6 inline-block rounded bg-accent-light/30 px-3 py-1 text-[10px] font-bold tracking-widest text-primary-700 uppercase w-fit">
 					Charge Capture
 				</div>
-				<h3 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">
+				<h3 class="mb-6 text-4xl font-medium tracking-tight text-navy">
 					Never miss a billable charge again
 				</h3>
-				<p class="mb-8 text-lg leading-relaxed text-gray-600">
-					Cleo Health's <strong class="text-gray-900">intelligent charge capture</strong> automatically identifies and documents billable procedures and services. Combined with census management, you have complete visibility across your entire patient population.
+				<p class="mb-8 text-lg leading-relaxed text-slate">
+					Cleo Health's <strong class="text-navy">intelligent charge capture</strong> automatically identifies and documents billable procedures and services. Combined with census management, you have complete visibility across your entire patient population.
 				</p>
 				<div class="flex items-center gap-4">
-					<a href="#" class="bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+					<a href="#" class="bg-primary-500 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-primary-600 uppercase rounded">
 						See Charge Capture
 					</a>
-					<a href="#" class="border border-gray-200 bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-gray-900 transition-colors hover:bg-gray-50 uppercase">
+					<a href="#" class="border border-gray-200 bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-navy transition-colors hover:bg-gray-50 uppercase rounded">
 						Request Demo
 					</a>
 				</div>
