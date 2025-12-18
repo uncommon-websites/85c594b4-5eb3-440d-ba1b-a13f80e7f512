@@ -1,17 +1,26 @@
-<footer class="relative overflow-hidden bg-accent-dark pt-24 pb-8 text-white">
+<script>
+	let {
+		ctaHeadline = "Transform acute care with Cleo Health",
+		ctaSubtext = "Request a demo and see how AI can reduce documentation burden.",
+		showCta = true
+	} = $props();
+</script>
+
+<footer class="relative overflow-hidden bg-accent-dark pt-32 pb-12 text-white">
 	<!-- Geometric Pattern Background -->
 	<div class="absolute inset-0 opacity-10 pointer-events-none"
 		style="background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, transparent 1px); background-size: 60px 60px; transform: perspective(500px) rotateX(60deg) translateY(-50px) scale(2);">
 	</div>
-	
+
 	<div class="relative z-10 mx-auto max-w-[1400px] px-6">
 		<!-- CTA Section -->
-		<div class="mb-24 text-center">
+		{#if showCta}
+		<div class="mb-32 pt-8 text-center">
 			<h2 class="mb-4 text-5xl font-medium tracking-tight">
-				Transform acute care<br>with Cleo Health
+				{@html ctaHeadline}
 			</h2>
 			<p class="mb-8 text-lg text-white/70">
-				Request a demo and see how AI can reduce documentation burden.
+				{ctaSubtext}
 			</p>
 			<div class="mx-auto flex max-w-md items-center gap-2">
 				<input
@@ -24,6 +33,7 @@
 				</button>
 			</div>
 		</div>
+		{/if}
 
 		<!-- Links Grid -->
 		<div class="mb-24 grid grid-cols-2 gap-8 md:grid-cols-5">
@@ -99,9 +109,9 @@
 					<div class="h-1.5 w-1.5 rounded-full bg-green-500"></div> Status
 				</a>
 			</div>
-			<div class="flex gap-2">
-				<div class="h-8 w-8 rounded-full bg-primary-500 flex items-center justify-center text-white font-bold text-xs">SOC2</div>
-				<div class="h-8 w-8 rounded-full bg-accent-light flex items-center justify-center text-navy font-bold text-xs">HIPAA</div>
+			<div class="flex items-center gap-3">
+				<img src="/soc2-badge-icon.png" alt="SOC 2" class="h-8 w-auto" />
+				<img src="/hipaa-compliant-icon.svg" alt="HIPAA" class="h-6 w-auto" />
 			</div>
 		</div>
 	</div>
